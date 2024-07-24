@@ -49,21 +49,21 @@ html, body{
   position: relative;
 }
 
-h1::before,
-h1::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  height: 1px;
-  background-color: black;
+.about-me h1::before,
+  h1::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background-color: black;
 }
 
-h1::before {
+.about-me h1::before {
   left: 255px;
   width: 25%; 
 }
 
-h1::after {
+.about-me h1::after {
   right: 255px;
   width: 25%;
 }
