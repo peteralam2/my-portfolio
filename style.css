@@ -1,7 +1,7 @@
-html, body{
-  overflow: hidden;
+html{
+  scroll-behavior: smooth;
+  font-family: sans-serif;
 }
-
 .head{
   display: flex;
   justify-content: space-between;
@@ -44,30 +44,54 @@ html, body{
   margin-top: 0px;
 }
 
-.about-me{
+.main-text svg{
+  margin-top: 50px;
+}
+
+.line{
   text-align: center;
   position: relative;
+  max-width: auto;
+  margin: 100px auto;
 }
 
-.about-me h1::before,
-  h1::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    height: 1px;
-    background-color: black;
+.line::before{
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 37%;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  background: black;
 }
 
-.about-me h1::before {
-  left: 255px;
-  width: 25%; 
+.line::after{
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 37%;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  background: black;
 }
 
-.about-me h1::after {
-  right: 255px;
-  width: 25%;
+.about-me-text{
+  margin: auto;
+  max-width: 800px;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+} 
+
+.about-me-text p{
+  color: #1F1F1F;
+  font-size: 1rem;
 }
 
-.about-me-background{
+.about-me{
   background-color: #C4C4C4;
+  padding: 100px;
 }
