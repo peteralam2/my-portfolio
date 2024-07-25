@@ -268,3 +268,17 @@ html{
   margin-left: 50%;
   max-width: 50%;
 }
+
+.contact-me-text{
+  display: block;
+  margin:0 auto;
+  max-width: 500px;
+
+} 
+
+.contact-me-text button{
+  margin-left: 36%;
+  margin-top: 20%;
+  font-size: large;
+  padding: 15px;  
+}
