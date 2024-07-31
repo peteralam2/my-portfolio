@@ -39,6 +39,10 @@ html{
   color: #fff;
 }
 
+.links a:hover{
+  color: #C3D2D5;
+}
+
 .btns{
   padding-right: 87px;
   text-decoration: none;
@@ -51,6 +55,7 @@ html{
   margin: 15px;
   padding: 5px;
 }
+
 
 .main-text{
   display: flex;
@@ -100,21 +105,17 @@ html{
   background: #283618;
 }
 
-.about-me-container{
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
 
 .about-me-text{
   margin: auto;
   margin-left: 80px;
   max-width: 800px;
   max-height: 100%;
-  display: grid;
   grid-template-columns: 1fr 2fr;
   place-items: center;
   color: #fff;
+  display: block;
+  margin:0 auto;
 } 
 
 .about-me-text p{
@@ -125,13 +126,7 @@ html{
   margin-left: 0;
 }
 
-.about-me-text img{
-  width: 300px;
-  height: 300px;
-}
-
 .about-me{
-  background-color: #ffffff;
   color: #284b63;
   padding: 100px 40px;
   width: 100%;
@@ -278,8 +273,10 @@ html{
 } 
 
 .contact-me-text button{
-  margin-left: 36%;
-  margin-top: 20%;
-  font-size: large;
+  align-items: center;
   padding: 15px;  
+}
+
+.message-me svg{
+  padding-top: ;
 }
